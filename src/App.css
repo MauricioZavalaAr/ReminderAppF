@@ -1,0 +1,49 @@
+
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+.header {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: white; 
+}
+
+.loading {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.error {
+  color: white; 
+  margin-bottom: 10px;
+}
+
+.reminder-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reminder-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.remove-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
